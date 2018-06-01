@@ -1,0 +1,12 @@
+{
+    "user": "root",
+    "hosts": [
+        "127.0.0.1"
+    ],
+    "passwords": {
+        "root@127.0.0.1": "123456"
+    },
+    "host_port": 8600,
+    "image_dir": "tc506",
+    "host_image_path": "/var/www/"
+}
