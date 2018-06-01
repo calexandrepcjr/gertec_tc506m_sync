@@ -1,8 +1,6 @@
 from cx_Freeze import setup, Executable
 import sys, os
 
-base = None
-
 if sys.platform == 'win32':
     PYTHON_INSTALL_DIR = os.path.dirname(os.path.dirname(os.__file__))
     os.environ['TCL_LIBRARY'] = os.path.join(PYTHON_INSTALL_DIR, 'tcl', 'tcl8.6')
